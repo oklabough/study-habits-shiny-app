@@ -6,7 +6,7 @@ library(DT)
 ```
 
 ```{r}
-df2 = read_csv("student_habits_performance.csv")
+df2 = read_csv("https://uwmadison.box.com/shared/static/0ff6z2hx6bgkxjvx5masd3tdsobtdzpw.csv")
 df2 = df2 %>% select(study_hours_per_day, social_media_hours, netflix_hours, sleep_hours, exercise_frequency, exam_score)
 ```
 
